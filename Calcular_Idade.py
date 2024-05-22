@@ -6,3 +6,4 @@ if idade <= 17 or idade > 60:
 
 elif idade >= 18 and idade < 60:
     print(f"{nome}, o seu voto obrigaório!")
+    print("-------------------------------")
