@@ -3,7 +3,6 @@ def ContaVogais():
     palavra = input("Digite uma palavra: ")
     
     vogais = 'aeiouAEIOU'
-    numbers = 1,2,3,4,5,6,7,8,9
     consoantes = not 'aeiouAEIOU'
     somandoVogais = 0
     espaco = 0
