@@ -1,7 +1,11 @@
-palavra = input("Digite uma palavra: ")
-
-vogais = sum(1 for char in palavra if char in 'aeiouAEIOU')
-
-consoantes = sum(1 for char in palavra if char.isalpha() and char not in 'aeiouAEIOU')
-
-print(f"Vogais: {vogais}, Consoantes: {consoantes}")
+def ContaVogais():
+    
+    palavra = input("Digite uma palavra: ")
+    vogais = 'aeiouAEIOU'
+    consoantes = not 'aeiouAEIOU'
+    somandoVogais = 0
+    for letra in palavra:
+        if letra in vogais:
+            somandoVogais += 1
+            print("Achei a quantidade de "+letra)
+ContaVogais()
